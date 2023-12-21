@@ -6,7 +6,7 @@ import numpy as np
 
 try:
     # пытаемся подключиться к базе данных
-    conn = psycopg2.connect(dbname='demo', user='postgres', password='123456', host='localhost')
+    conn = psycopg2.connect(dbname='demo', user='proskurin.da3', password='neM3B5EO+xrH', host='adm-it-std-pg1.dns-shop.ru')
 except:
     # в случае сбоя подключения будет выведено сообщение в STDOUT
     print('Can`t establish connection to database')
