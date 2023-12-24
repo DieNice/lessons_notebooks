@@ -146,10 +146,14 @@ def main_layout() -> html.Div:
                  style={"display": "flex", "justify-content": "center", "padding-right": "150px"})
     ])
 
-
+load_dotenv("env.txt" )
 app = dash.Dash("my_first_app")
-load_dotenv()
+
+
+
+
 app.layout = main_layout()
+
 
 
 @app.callback(
